@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <title>Using Selectors</title>
-   <style>
-    button {
-       background-color: red;
-       width: 200px;
-       height: 50px;
-       font-size: 24px;
-      }
-      
-      button:hover {
-         background-color: green;
-      }
-   </style>
+   <head>
+      <title>Screen Size</title>
+      <style>
+         @media (min-width: 600px) {
+            body {
+               background-color: red;
+            }
+         }
+         
+         @media (max-width 599px) {
+            body {
+               background-color: green;
+            }
+         }
+      </style>
    </head>
    <body>
-      <button>Button 1</button>
-      <button>Button 2</button>
-      <button>Button 3</button>
+      <h1>MC King!</h1>
    </body>
 </html>
